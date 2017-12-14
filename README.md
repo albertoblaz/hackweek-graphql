@@ -1,36 +1,17 @@
-# apollo-tutorial-kit (formerly apollo-starter-kit)
+# HackWeek (GraphQL + Electron)
 
-Starting point for the Apollo GraphQL Server tutorial.
+## How to install
 
-See also [Tutorial: How to build a GraphQL server](https://medium.com/apollo-stack/tutorial-building-a-graphql-server-cddaa023c035#.wy5h1htxs) and the solution in the `server-tutorial-solution` branch of this repo.
+1. Run server:
+   yarn
+   yarn start
 
-Up-to-date documentation and explanations for Apollo Server can be found on [docs.apollostack.com](http://dev.apollodata.com/tools/apollo-server/index.html)
+2. Run client on web (on another console tab):
+   cd client
+   yarn
+   yarn start
+   (if it does not work, reload page)
 
-## Getting started
-
-```sh
-git clone https://github.com/apollostack/apollo-starter-kit
-cd apollo-starter-kit
-npm install
-npm run start
-```
-
-Then open [http://localhost:3000/graphiql](http://localhost:3000/graphql)
-
-When you paste this on the left side of the page:
-
-```
-{
-  testString
-}
-```
-
-and hit the play button (cmd-return), then you should get this on the right side:
-
-```json
-{
-  "data": {
-    "testString": "It works!"
-  }
-}
-```  
+3. Run desktop client with Electron
+   (from `client/`)
+   yarn electron
