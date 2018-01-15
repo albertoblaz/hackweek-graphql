@@ -17,4 +17,6 @@
    (if it does not work, reload page)
 
 3. Run desktop client with Electron (from `client/`)
-   `yarn electron`
+   ```bash
+   yarn electron
+   ```
